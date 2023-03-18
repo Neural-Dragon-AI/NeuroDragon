@@ -15,7 +15,7 @@ The goal of this project is to provide a flexible and modular framework for buil
 - Parser and action layers for processing structured inputs and triggering actions
 - Completion and chat-response layers for generating responses
 
-## Layers Overview
+## StringLayers Overview
 
 The NeuroDragon package contains the following predefined layers:
 
