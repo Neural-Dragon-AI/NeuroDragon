@@ -15,6 +15,33 @@ The goal of this project is to provide a flexible and modular framework for buil
 - Parser and action layers for processing structured inputs and triggering actions
 - Completion and chat-response layers for generating responses
 
+## Package Organization
+``` NeuroDragon/
+|-- neurodragon/
+|   |-- __init__.py
+|   |-- layers/
+|   |   |-- __init__.py
+|   |   |-- base.py
+|   |   |-- input_layer.py
+|   |   |-- short_term_memory_layer.py
+|   |   |-- query_embedder_layer.py
+|   |   |-- long_term_memory_layer.py
+|   |   |-- working_memory_layer.py
+|   |   |-- output_layer.py
+|   |-- utils/
+|   |   |-- __init__.py
+|   |   |-- tools.py
+|-- examples/
+|   |-- fifo_vector_chat_example.py
+|-- tests/
+|   |-- __init__.py
+|   |-- test_layers.py
+|-- setup.py
+|-- notes.md
+|-- brain_inspired.md
+|-- README.md
+```
+
 ## Layers Overview
 
 The NeuroDragon package contains the following predefined layers:
