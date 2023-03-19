@@ -16,6 +16,10 @@ The goal of this project is to provide a flexible and modular framework for buil
 - Completion and chat-response layers for generating responses
 
 ## Package Organization
+
+```
+
+## Package Organization
 ``` NeuroDragon/
 |-- neurodragon/
 |   |-- __init__.py
@@ -42,7 +46,7 @@ The goal of this project is to provide a flexible and modular framework for buil
 |-- README.md
 ```
 
-## Layers Overview
+## StringLayers Overview
 
 The NeuroDragon package contains the following predefined layers:
 
